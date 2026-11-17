@@ -4,3 +4,6 @@ obj/
 *.user
 embeddings-index.json
 *.tmp
+embeddings.db
+embeddings.db-wal
+embeddings.db-shm
