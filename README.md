@@ -50,3 +50,7 @@ search> :list
 An `embeddings-index.json` from earlier versions is imported automatically the first time `embeddings.db` is created.
 
 `nomic-embed-text` expects the task prefixes `search_document:` and `search_query:`. The app adds them automatically. If you switch models (`--model mxbai-embed-large`, for example), use `--rebuild`, because vectors from different models can't be compared.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
